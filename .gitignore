@@ -1,0 +1,34 @@
+# MPLAB X IDE: keep sources, Makefile and nbproject/*.xml only
+**/*.X/~*.*
+**/*.X/build/
+**/*.X/_build/
+**/*.X/debug/
+**/*.X/dist/
+**/*.X/out/
+**/*.X/cmake/
+**/*.X/disassembly/
+**/*.X/.generated_files/
+**/*.X/nbproject/private/
+**/*.X/nbproject/*.mk
+**/*.X/nbproject/*.bash
+**/*.X/nbproject/Makefile-genesis.properties
+
+# Build outputs
+*.o
+*.obj
+*.elf
+*.hex
+*.map
+*.lst
+
+# Zephyr / CMake build folders
+build/
+
+# Editors and AI assistant configs
+.vscode/
+.continue/
+.qodo/
+
+# OS
+.DS_Store
+Thumbs.db
